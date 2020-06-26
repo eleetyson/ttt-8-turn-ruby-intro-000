@@ -42,4 +42,6 @@ def turn(board)
   input = gets.strip #store the user input
   index = input_to_index(input) #convert the user input to an index and store it
   if valid_move?(board, index) == true
+    true
+  else
 end
