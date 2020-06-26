@@ -39,5 +39,6 @@ end
 # method to run a single turn of Tic Tac Toe
 def turn(board)
   puts "Please enter 1-9:" #get user input
-  input = gets.strip #convert user input to index
+  input = gets.strip #store the user input
+  index = input_to_index(input) #convert the user input and store it
 end
